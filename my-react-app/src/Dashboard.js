@@ -1,7 +1,9 @@
+import "./dashboard.css";
+import Pdf from "./images/Screenshot (4)";
 function Dashboard(){
     return(
         <>
-        <header className="d-flex justify-between align-center" >
+        <header className="d-flex justify-between  align-center" >
            
                 <div>
                 <div className="logo">
@@ -142,8 +144,27 @@ function Dashboard(){
                 </div>
 
             </div>
-
-
+            <div className="wrapper-5">
+            <div class="parent">
+  <div class="slide">
+  <div class="child">1</div>
+    <div class="child">2</div>
+    <div class="child">3</div>
+    <div class="child">4</div>
+    <div class="child">5</div>
+  <div class="child">1</div>
+    <div class="child">2</div>
+    <div class="child">3</div>
+    <div class="child">4</div>
+    <div class="child">5</div>
+    
+  </div>
+</div>
+            </div>
+            
+            <a href={Pdf} download className="btn line-btn-dark btn-icon btn-radius" title="">
+  download
+</a>
         </div>
         </>
 

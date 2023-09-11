@@ -1,0 +1,28 @@
+.parent {
+    width: 100%;
+    background-color: lightgray;
+    overflow: hidden
+  }
+  
+  .slide {
+    display: inline-flex;
+    width: auto;
+    animation: slide-left-coins 10s linear 2s infinite
+  }
+  
+  .slide .child {
+    width: 250px;
+    height: 50px;
+    background-color: white;
+  border-left:1px solid grey;
+  border-right:1px solid grey;
+  }
+  
+  @keyframes slide-left-coins {
+    0% {
+      transform: translateX(0)
+    }
+    100% {
+      transform: translateX(-350px)
+    }
+}
