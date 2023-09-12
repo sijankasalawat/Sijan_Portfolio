@@ -1,5 +1,5 @@
 import "./dashboard.css";
-import Pdf from "./images/Screenshot (4)";
+import Pdf from "./images/pdf.png";
 function Dashboard(){
     return(
         <>
@@ -163,7 +163,7 @@ function Dashboard(){
             </div>
             
             <a href={Pdf} download className="btn line-btn-dark btn-icon btn-radius" title="">
-  download
+  download CV
 </a>
         </div>
         </>

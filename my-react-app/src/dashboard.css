@@ -1,3 +1,40 @@
+
+:root {
+  --color-primary: #123F6B;;
+  --color-danger: #ff1111;
+  --color-success: #1B9C85;
+  --color-warning: #F7D060;
+  --color-white: #fff;
+  --color-info-dark: #7d8da1;
+  --color-dark: #363949;
+  --color-light: rgba(132, 139, 200, 0.18);
+  --color-dark-variant: #677483;
+  --color-background: #f6f6f9;
+  --card-border-radius: 0.5rem;
+  --border-radius-1: 0.4rem;
+  --border-radius-2: 1.2rem;
+  --card-padding: 1.8rem;
+  --padding-1: 1.2rem;
+  --box-shadow: 0 0.5rem 0.5rem var(--color-light);
+  --company-name: #123F6B;
+  --card-border: #E7E7E7;
+  --bg-color:#e9e9e9;
+
+}
+
+.dark-mode-variables {
+  --color-primary:#1DA1F2;
+  --color-background: #181a1e;
+  --color-white: #202528;
+  --color-dark: #edeffd;
+  --color-dark-variant: #a3bdcc;
+  --color-light: rgba(0, 0, 0, 0.4);
+  --bg-color:#202528;
+  /* --box-shadow: 0 2rem 3rem var(--color-light); */
+}
+h1,h2,h3,p{
+  font-family: "Nunito";
+}
 .parent {
     width: 100%;
     background-color: lightgray;
