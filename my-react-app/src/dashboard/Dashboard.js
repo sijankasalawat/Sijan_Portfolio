@@ -1,43 +1,32 @@
 import "./dashboard.css";
-import Pdf from "./images/pdf.png";
+import "../css/custome.css"
+import Pdf from "../images/pdf.png";
+// import Header from "../component/Header.js";
+import NavBar from "../component/NavBar";
+import Sijan from "../images/sijan.jpg"
+
 function Dashboard(){
     return(
         <>
-        <header className="d-flex justify-between  align-center" >
-           
-                <div>
-                <div className="logo">
-                </div>
-                <h2>SIJAN.K</h2>
-                </div>
-                <div className="nav ">
-                    <ul className="d-flex ">
-                        <li><a>Home</a></li>
-                        <li><a>About</a></li>
-                        <li><a>Contact</a></li>
-                        <li><a>Explore</a></li>
-                    </ul>
-
-                </div>
-
-         
-        
-
-        </header>
+     
+      
         <div className="main-wrapper ">
+        <NavBar/>
             <div className="wrapper-1 d-lg-flex d-md-flex d-sm-block ">
-                <div className="col-lg-6 col-md-6 col-sm-12">
-                    {/* profile image
-                    <img></img> */}
-
+                <div className="img1 d-flex align-items-center ">
+                  
+                    <img src={Sijan} alt="image" />
                 </div>
-            <div className="col-lg-6 col-md-6 col-sm-12 px-2">
+            <div className="info px-2 d-flex align-items-center bg-primary" >
+                <div>
                 <h3>
                 I’m Sijan Kasalawat.
                     A Fontend Developer
                 </h3>
                 <p>I’m probably the most passionate designer you will ever get to work with. If you have a great project that needs some amazing skills, I’m your guy.</p>
 
+                </div>
+                
              </div>
             </div>
             <div className="wrapper-2 px-2">
